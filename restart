@@ -1,0 +1,52 @@
+{
+  "name": "restart",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "aUSLp",
+  "actions": [
+    {
+      "title": "Restarting",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "e",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "e",
+      "message": "Restarting bot..",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "e",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "filename": "bot.js",
+      "name": "Restart Bot"
+    }
+  ]
+}
